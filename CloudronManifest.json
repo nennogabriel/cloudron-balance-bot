@@ -1,0 +1,24 @@
+{
+  "id": "com.hodlerhacks.balancebot",
+  "title": "Balance Bot",
+  "author": "Nennogabriel",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Automate your crypto portfolio balancing",
+  "version": "0.0.27",
+  "upstreamVersion": "2.6.26",
+  "healthCheckPath": "/",
+  "httpPort": 3000,
+  "optionalSso": false,
+  "addons": {
+    "localstorage": {}
+  },
+  "memoryLimit": 536870912,
+  "manifestVersion": 2,
+  "website": "https://hodlerhacks.com/balance-bot/",
+  "contactEmail": "pedro@ligeiro.net",
+  "icon": "logo.png",
+  "tags": ["crypto", "automation", "portfolio", "balance"],
+  "changelog": "file://CHANGELOG.md",
+  "minBoxVersion": "7.2.0",
+  "postInstallMessage": "file://POSTINSTALL.md"
+}
