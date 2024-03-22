@@ -1,14 +1,17 @@
 #!/usr/bin/expect -f
 
 # Set the timeout to a reasonable value to avoid hanging
-set timeout 60
+set timeout 90
 
 # Start the installation script
 spawn node install.js
 
 # Look for the prompt and respond with "1" (or the appropriate option)
-expect "1 - Install Balance Bot"
-send "1\r"
+expect "Enter selection:"
+sleep 2
+send "1"
+sleep 1
+send "\r"
 
 # Add additional `expect` and `send` commands as needed
 

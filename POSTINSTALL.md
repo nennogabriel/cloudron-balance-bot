@@ -6,9 +6,11 @@ Congratulations on installing Balance Bot on your Cloudron! To get started with 
 
 1. **Access the Balance Bot Interface**: Navigate to the Balance Bot app on your Cloudron dashboard and open the application to access its user interface.
 
-2. **Configure Exchange API Keys**: Go to the settings section within the Balance Bot interface. Here, you'll need to enter the API keys for the cryptocurrency exchanges you wish to integrate with. This is crucial for enabling the bot to manage your assets on these platforms.
+2. **Configure Telegram Bot and Password**: Go to the settings section within the Balance Bot interface. Set a Telegram bot and your username, go to telegram bot and say /start to it. Go back to panel and now you can setup a username and password. For security reasons mark the 2fa from telegram to a more secure environment
 
-3. **Define Your Portfolio Strategy**: In the settings, specify your desired asset allocations and rebalancing thresholds. This will determine how and when the Balance Bot adjusts your portfolio.
+3. **Configure Exchange API Keys**: Go to the settings section within the Balance Bot interface. Here, you'll need to enter the API keys for the cryptocurrency exchanges you wish to integrate with. This is crucial for enabling the bot to manage your assets on these platforms.
+
+4. **Define Your Portfolio Strategy**: In the settings, specify your desired asset allocations and rebalancing thresholds. This will determine how and when the Balance Bot adjusts your portfolio.
 
 ## Usage Tips
 
